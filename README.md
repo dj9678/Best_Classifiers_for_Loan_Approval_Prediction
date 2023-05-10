@@ -8,7 +8,7 @@
 </p>
 
 <h2>Methodology</h2>								
-<span class="image main"><img src="images/Portfolio_Methodology3.jpg" alt="" /></span>
+<span class="image main"><img src="Portfolio_Methodology3.jpg" alt="" /></span>
 <h2>Data Collection & Wrangling</h2>
 <p>
   - Collected the loan approval dataset from Kaggle<br>
@@ -27,21 +27,21 @@
   - Education degree makes it easy to get loan approved and self employee person tend to get less loan approved<br>
   - Semi-urban area showe the most loan approval than urban and rural area
 </p>
-<span class="image main"><img src="images/Portfolio_Methodology3_1.jpg" alt="" /></span>
+<span class="image main"><img src="Portfolio_Methodology3_1.jpg" alt="" /></span>
 <p>
   - From the applicant income density plot below, it indicates that lower range of applicant income showed the most loan approved rate, then decreased grdaually. However, increased again dramatically at the range of high income range<br>
   - For loan amount density plot, it seems like middle range of loan amount tend to get approved than other amounts. It also decreased grdually after reaching the peak around $150,000, but increased again around the laon amaount of $250,000. 
     This indicates that people in high income range tend to borrow higher amount than other income range
 </p>
-<span class="image main"><img src="images/Portfolio_Methodology3_2.jpg" alt="" /></span>
+<span class="image main"><img src="Portfolio_Methodology3_2.jpg" alt="" /></span>
 <p>
   - From the correlation heatmap below, it shows that relationship between loan amount and applicant income and relationship between credit history and loan status 
   have relatively high correlation than others, but since it is 0.49 and 0.54 respectively, it is considered okay to include in the model
 </p>
-<span class="image main"><img src="images/Portfolio_Methodology3_3.jpg" style="	width:70%; margin-bottom: 50px;" /></span>
+<span class="image main"><img src="Portfolio_Methodology3_3.jpg" style="	width:70%; margin-bottom: 50px;" /></span>
 
 <h2>Performance Comparison Table</h2>
-<span class="image main"><img src="images/Portfolio_Methodology3_4.jpg" style="	width:70%; margin-bottom: 50px;" /></span>
+<span class="image main"><img src="Portfolio_Methodology3_4.jpg" style="	width:70%; margin-bottom: 50px;" /></span>
 <p>
   - Splited data 80% for training and 20% for test<br>
   - Used 5 fold Cross Validation to find the optimal value for hyperparameter if needed<br>
